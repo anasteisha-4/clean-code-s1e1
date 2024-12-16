@@ -13,7 +13,7 @@
       charset="utf-8"
     >
   </head>
-  <body>
+  <body class="site-body">
     <header class="eisenhower-matrix">
       <img src="./eisenhower-matrix.jpg"
         alt="eisenhower matrix"
@@ -37,10 +37,10 @@
         <div class="todo-lists__task-wrapper">
           <input
             id="new-task"
-            class="todo-lists__new-task"
+            class="todo-lists__new-task-input"
             type="text"
           >
-          <button class="todo-lists__button">Add</button>
+          <button class="todo-lists__add-button">Add</button>
         </div>
       </section>
       <section class="todo-lists__incomplete-tasks-section">
@@ -49,7 +49,7 @@
           <li class="todo-lists__task-row">
             <input type="checkbox" class="todo-lists__checkbox">
             <label class="todo-lists__task">Pay Bills</label>
-            <input type="text" class="todo-lists__task">
+            <input type="text" class="todo-lists__task-input">
             <button class="todo-lists__edit-button">Edit</button>
             <button class="todo-lists__remove-button">
               <img
@@ -65,7 +65,7 @@
             <input
               type="text"
               value="Go Shopping"
-              class="todo-lists__task"
+              class="todo-lists__task-input"
             >
             <button class="todo-lists__edit-button">Save</button>
             <button class="todo-lists__remove-button">
@@ -88,7 +88,7 @@
               checked
             >
             <label class="todo-lists__task">See the Doctor</label>
-            <input type="text" class="todo-lists__task">
+            <input type="text" class="todo-lists__task-input">
             <button class="todo-lists__edit-button">Edit</button>
             <button class="todo-lists__remove-button">
               <img
